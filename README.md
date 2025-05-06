@@ -1,1 +1,1 @@
-# gitkraken-material-deep-ocean-theme
+https://material-theme.com/docs/reference/color-palette/
