@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "name": "Material Deep Ocean",
+    "scheme": "dark" // must be "light" or "dark"
+  },
+  "themeValues": {
+    // values applied to the entire app
+    "root": {
+      "red": "#f07178",
+      "orange": "#f78c6c",
+      "yellow": "#ffcb6b",
+      "green": "#c3e88d",
+      "teal": "#89ddff",
+      "blue": "#82aaff",
+      "ltblue": "#89ddff",
+      "purple": "#c792ea",
+      "app__bg0": "#0a0b10", //main commit list
+      "toolbar__bg0": "#0f111a", //very top bar
+      "toolbar__bg1": "#0f111a", //repo and commands bar
+      "toolbar__bg2": "#0f111a", //tabs
+      "panel__bg0": "#0a0b10", //frame panels
+      "panel__bg1": "#0f111a", //dunno
+      "panel__bg2": "#0f111a", //dunno
+      "input__bg": "#0f111a", //commit message panel
+      "input-bg-warn-color": "#f78c6c",
+      "panel-border": "#1f222b", //main border
+      "section-border": "#1f222b", //subsection internal borders
+      "subtle-border": "#1f222b", //dunno
+      "modal-overlay-color": "rgba(0,0,0,.5)",
+      // graph colors
+      "graph-color-0": "#89ddff",  //teal
+      "graph-color-1": "#c3e88d",  //green
+      "graph-color-2": "#c792ea",  //purple
+      "graph-color-3": "#82aaff",  //blue
+      "graph-color-4": "#ffcb6b",  //yellow
+      "graph-color-5": "#f78c6c",  //orange
+      "graph-color-6": "#f07178",  //red
+      "graph-color-7": "#89ddff",  //teal
+      "graph-color-8": "#c3e88d",  //green
+      "graph-color-9": "#c792ea",  //purple
+      "stats-added-color": "#c3e88d",  //green
+      "stats-deleted-color": "#f07178", //red
+      "stats-files-color": "#ffcb6b",  //yellow
+      // text colors
+      // values starting with . aren't added to the CSS, they're just variables
+      ".text-color": "#F8F8F2",
+      "text-selected": "@.text-color",
+      "text-normal": "#8f93a2", //main text
+      "text-secondary": "#4b526d", //subsection header text
+      "text-disabled": "rgba(248,248,242,.4)",
+      "text-accent": "#84ffff", //counts text
+      "text-inverse": "#222222",  //dunno
+      "text-bright": "@.text-color",
+      "text-dimmed": "#464B5D",  //dunno
+      "text-dimmed-selected": "rgba(248,248,242,.5)",
+      "text-selected-row": "@text-selected",
+      // buttons
+      "btn-text": "@text-normal",
+      "btn-text-hover": "@text-selected",
+      "default-border": "@text-normal",
+      "default-bg": "transparent",  //dunno
+      "default-hover": "transparent",
+      "default-border-hover": "@text-selected",
+      "primary-border": "#0F111A",
+      "primary-bg": "#1A1C25",
+      "primary-hover": "rgba(189,147,249,.3)",  //button hover
+      "success-border": "#c3e88d",
+      "success-bg": "rgba(80,250,123,.1)",
+      "success-hover": "rgba(80,250,123,.3)",
+      "warning-border": "#f78c6c",
+      "warning-bg": "rgba(255,184,108,.1)",
+      "warning-hover": "rgba(255,184,108,.3)",
+      "danger-border": "#f07178",
+      "danger-bg": "rgba(255,85,85,.1)",
+      "danger-hover": "rgba(255,85,85,.3)",
+      // states
+      "hover-row": "#1F2233",  //commit list hover state
+      "danger-row": "rgba(255,85,85,.3)",
+      "selected-row": "#717CB480",
+      "selected-row-border": "none",
+      "warning-row": "rgba(255,184,108,.3)",
+      "droppable": "rgba(241,250,140,.3)",
+      "drop-target": "rgba(80,250,123,.5)",
+      "input--disabled": "rgba(248,248,242,.1)",
+      "link-color": "#89ddff",
+      "link-color-bright": "#89ddff",
+      "form-control-focus": "#82aaff",
+      // various app elements
+      "scroll-thumb-border": "rgba(0,0,0,0)",
+      "scroll-thumb-bg": "rgba(255,255,255,0.15)",
+      "scroll-thumb-bg-light": "rgba(0,0,0,0.15)",
+      "wip-status": "rgba(189,147,249,.3)",
+      "card__bg": "#0f111a",  //dunno
+      "card-shadow": "rgba(0,0,0,.2)",
+      "statusbar__warning-bg": "rgba(255,184,108,.5)",
+      "label__yellow-color": "#ffcb6b",
+      "label__light-blue-color": "#89ddff",
+      "label__purple-color": "#c792ea",
+      // component states
+      "filtering": "rgba(189,147,249,.5)",
+      "soloing": "rgba(255,184,108,.5)",
+      "checked-out": "rgba(80,250,123,.3)",
+      "soloed": "rgba(255,184,108,.3)",
+      "filter-match": "rgba(189,147,249,.5)",
+      "clone__progress": "rgba(189,147,249,.7)",
+      "toolbar__prompt": "rgba(189,147,249,.2)",
+      "verified": "rgba(80,250,123,.3)",
+      "unverified": "rgba(248,248,242,.1)",
+      "drop-sort-border": "#c3e88d",
+      // terminal
+      "terminal__repo-name-color": "#89ddff",
+      "terminal__repo-branch-color": "#c792ea",
+      "terminal__repo-tag-color": "#f78c6c",
+      "terminal__repo-upstream-color": "#ffcb6b",
+      "terminal__background": "#0a0b10",
+      "terminal__cursor": "#F8F8F2",
+      "terminal__cursorAccent": "#0a0b10",
+      "terminal__foreground": "#F8F8F2",
+      "terminal__selection": "#0f111a",
+      "terminal__black": "#0a0b10",
+      "terminal__red": "#f07178",
+      "terminal__green": "#c3e88d",
+      "terminal__yellow": "#ffcb6b",
+      "terminal__blue": "#82aaff",
+      "terminal__magenta": "#c792ea",
+      "terminal__cyan": "#89ddff",
+      "terminal__white": "#F8F8F2",
+      "terminal__brightBlack": "#6272A4",
+      "terminal__brightRed": "#FF6E6E",
+      "terminal__brightGreen": "#69FF94",
+      "terminal__brightYellow": "#FFFFA5",
+      "terminal__brightBlue": "#D6ACFF",
+      "terminal__brightMagenta": "#FF92DF",
+      "terminal__brightCyan": "#A4FFFF",
+      "terminal__brightWhite": "#FFFFFF",
+      // code editor
+      "code-bg": "#0F111A",  //diff view background
+      "code-foreground": "#8F93A2",
+      "code-blame-color-0": "#89ddff",
+      "code-blame-color-1": "#c3e88d",
+      "code-blame-color-2": "#c792ea",
+      "code-blame-color-3": "#82aaff",
+      "code-blame-color-4": "#ffcb6b",
+      "code-blame-color-5": "#f78c6c",
+      "code-blame-color-6": "#f07178",
+      "code-blame-color-7": "#89ddff",
+      "code-blame-color-8": "#c3e88d",
+      "code-blame-color-9": "#c792ea",
+      "added-line": "rgba(80,250,123,.2)",
+      "deleted-line": "rgba(255,85,85,.2)",
+      "modified-line": "rgba(248,248,242,.25)",
+      "conflict-info-color": "#89ddff",
+      "conflict-left-border-color": "#89ddff",
+      "conflict-left-color": "rgba(139,233,253,.25)",
+      "conflict-right-border-color": "#f78c6c",
+      "conflict-right-color": "rgba(255,184,108,.25)",
+      "conflict-output-border-color": "#c792ea",
+      "conflict-output-color": "rgba(255,121,198,.25)"
+    },
+    // override specific values just for the toolbar
+    "toolbar": {
+      "text-selected": "rgba(248,248,242,1)",
+      "text-normal": "rgba(248,248,242,.9)",
+      "text-secondary": "rgba(248,248,242,.6)",
+      "text-disabled": "#464B5D",
+      "section-border": "#464B5D",
+      "input__bg": "#0f111a",
+      "link-color": "#89ddff",
+      "btn-text": "var(--text-normal)"
+    },
+    // override specific values just for the tabs bar
+    "tabsbar": {
+      "text-selected": "rgba(248,248,242,1)",
+      "text-normal": "rgba(248,248,242,.9)",
+      "text-secondary": "rgba(248,248,242,.6)",
+      "text-disabled": "#464B5D",
+      "section-border": "#464B5D",
+      "input__bg": "#0f111a",
+      "link-color": "#89ddff",
+      "btn-text": "var(--text-normal)"
+    }
+  }
+}
