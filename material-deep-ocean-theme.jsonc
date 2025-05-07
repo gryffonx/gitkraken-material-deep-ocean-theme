@@ -14,18 +14,18 @@
       "blue": "#82aaff",
       "ltblue": "#89ddff",
       "purple": "#c792ea",
-      "app__bg0": "#0a0b10", //main commit list
-      "toolbar__bg0": "#0f111a", //very top bar
-      "toolbar__bg1": "#0f111a", //repo and commands bar
-      "toolbar__bg2": "#0f111a", //tabs
-      "panel__bg0": "#0a0b10", //frame panels
-      "panel__bg1": "#0f111a", //dunno
-      "panel__bg2": "#0f111a", //dunno
+      "app__bg0": "#0F111A", //main commit list
+      "toolbar__bg0": "#090B10", //very top bar
+      "toolbar__bg1": "#090B10", //repo and commands bar
+      "toolbar__bg2": "#090B10", //tabs
+      "panel__bg0": "#090B10", //frame panels
+      "panel__bg1": "#090B10", //dunno
+      "panel__bg2": "#090B10", //dunno
       "input__bg": "#0f111a", //commit message panel
       "input-bg-warn-color": "#f78c6c",
-      "panel-border": "#1f222b", //main border
-      "section-border": "#1f222b", //subsection internal borders
-      "subtle-border": "#1f222b", //dunno
+      "panel-border": "#0F111A", //main border
+      "section-border": "#0F111A", //subsection internal borders
+      "subtle-border": "#0F111A", //dunno
       "modal-overlay-color": "rgba(0,0,0,.5)",
       // graph colors
       "graph-color-0": "#89ddff",  //teal
@@ -43,21 +43,21 @@
       "stats-files-color": "#ffcb6b",  //yellow
       // text colors
       // values starting with . aren't added to the CSS, they're just variables
-      ".text-color": "#F8F8F2",
-      "text-selected": "@.text-color",
+      ".text-color": "#8F93A2",
+      "text-selected": "#FFFFFF",
       "text-normal": "#8f93a2", //main text
-      "text-secondary": "#4b526d", //subsection header text
-      "text-disabled": "rgba(248,248,242,.4)",
+      "text-secondary": "#8f93a2", //subsection header text
+      "text-disabled": "#464B5D",
       "text-accent": "#84ffff", //counts text
       "text-inverse": "#222222",  //dunno
       "text-bright": "@.text-color",
       "text-dimmed": "#464B5D",  //dunno
-      "text-dimmed-selected": "rgba(248,248,242,.5)",
+      "text-dimmed-selected": "#464B5D",
       "text-selected-row": "@text-selected",
       // buttons
       "btn-text": "@text-normal",
       "btn-text-hover": "@text-selected",
-      "default-border": "@text-normal",
+      "default-border": "#0F111A",
       "default-bg": "transparent",  //dunno
       "default-hover": "transparent",
       "default-border-hover": "@text-selected",
@@ -86,7 +86,7 @@
       "link-color-bright": "#89ddff",
       "form-control-focus": "#82aaff",
       // various app elements
-      "scroll-thumb-border": "rgba(0,0,0,0)",
+      "scroll-thumb-border": "#0F111A",
       "scroll-thumb-bg": "rgba(255,255,255,0.15)",
       "scroll-thumb-bg-light": "rgba(0,0,0,0.15)",
       "wip-status": "rgba(189,147,249,.3)",
@@ -106,7 +106,7 @@
       "toolbar__prompt": "rgba(189,147,249,.2)",
       "verified": "rgba(80,250,123,.3)",
       "unverified": "rgba(248,248,242,.1)",
-      "drop-sort-border": "#c3e88d",
+      "drop-sort-border": "#0F111A",
       // terminal
       "terminal__repo-name-color": "#89ddff",
       "terminal__repo-branch-color": "#c792ea",
@@ -159,24 +159,24 @@
     },
     // override specific values just for the toolbar
     "toolbar": {
-      "text-selected": "rgba(248,248,242,1)",
-      "text-normal": "rgba(248,248,242,.9)",
-      "text-secondary": "rgba(248,248,242,.6)",
+      "text-selected": "#FFFFFF",
+      "text-normal": "#84ffff",  //icons for buttons
+      "text-secondary": "#4B526D", //text above buttons
       "text-disabled": "#464B5D",
-      "section-border": "#464B5D",
-      "input__bg": "#0f111a",
-      "link-color": "#89ddff",
-      "btn-text": "var(--text-normal)"
+      "section-border": "#0F111A", //vertical line in toolbar
+      "input__bg": "#0F111A",  //search bar
+      "link-color": "red",
+      "btn-text": "#84ffff"
     },
     // override specific values just for the tabs bar
     "tabsbar": {
-      "text-selected": "rgba(248,248,242,1)",
-      "text-normal": "rgba(248,248,242,.9)",
-      "text-secondary": "rgba(248,248,242,.6)",
+      "text-selected": "#FFFFFF",
+      "text-normal": "#c3e88d",  //very topright icons
+      "text-secondary": "#4B526D", //default tab text color
       "text-disabled": "#464B5D",
-      "section-border": "#464B5D",
-      "input__bg": "#0f111a",
-      "link-color": "#89ddff",
+      "section-border": "#0F111A", //dropdown list item border
+      "input__bg": "#0f111a", //search bar background
+      "link-color": "red",
       "btn-text": "var(--text-normal)"
     }
   }
